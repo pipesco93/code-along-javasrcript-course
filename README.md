@@ -1,2 +1,3 @@
-# code-along-javasrcript-course
-Ejercicio guia code along del curso de desarrollo web full stack de Digital House, en el cual se desarrollan los temas de MVC, EJS y CRUD con ejemplos guiados en clase por el profesor Nelson 
+# comi51-app-mvc
+code along clases en vivo MVC y EJS. Curso Full stack DH
+Ejercicio guia de practica para MVC, EJS y CRUD (metodos GET, POST, PUT, DELETE)

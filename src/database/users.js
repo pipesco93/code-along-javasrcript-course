@@ -3,27 +3,32 @@ const users = [
         id: 1,
         name: "Juan",
         age: 35,
-        img: 'https://randomuser.me/api/portraits/men/75.jpg'
+        img: 'https://randomuser.me/api/portraits/men/46.jpg'
     },
     {
         id: 2,
         name: "Romina",
         age: 27,
-        img: 'https://randomuser.me/api/portraits/men/65.jpg'
+        img: 'https://randomuser.me/api/portraits/men/9.jpg',
     },
     {
         id: 3,
         name: "Ricardo",
         age: 45,
-        img: 'https://randomuser.me/api/portraits/men/55.jpg'
+        img: 'https://randomuser.me/api/portraits/men/90.jpg',
     },
     {
         id: 4,
         name: "Mario",
         age: 20,
-        img: 'https://randomuser.me/api/portraits/men/45.jpg'
+        img: 'https://randomuser.me/api/portraits/men/23.jpg'
     },
-
+    {
+        id: 5,
+        name: "Juannnnnnnnn",
+        age: 35,
+        img: 'https://randomuser.me/api/portraits/men/48.jpg'
+    },
 ];
 
 module.exports = users;

@@ -1,14 +1,26 @@
-h2 {
+h2{
     font-family: 'Courier New', Courier, monospace;
     color: blue;
 }
 
-img {
+img{
     border-radius: 16px;
 }
 
-p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 15px;
-    color: red;
+    color: brown;
+}
+
+.card{
+    background-color: beige;
+    width: 300px;
+    height: 250px;
+    margin: 120px auto;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 60px;
 }
