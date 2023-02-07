@@ -1,6 +1,18 @@
 const express = require('express');
-const {getAllUsers, getUserId, search, formNewUser, postUser, userEdit, editConfirm} = require('../controllers/userControllers');
+const {getAllUsers,
+        getUserId,
+        search,
+        formNewUser,
+        postUser,
+        userEdit,
+        editConfirm,
+        admin
+        } = require('../controllers/userControllers');
+
 const routerUser = express.Router();
+
+// Se requiere el middleware isAdmin
+const isAdmin = require('../middleware/adminMiddleware')
 
 const path = require("path");
 const multer = require("multer");
@@ -29,6 +41,6 @@ routerUser.post('/new-user', upload.single('img') , postUser);
 routerUser.get('/user-edit/:id', userEdit);
 routerUser.put('/user-edit', upload.single('img') , editConfirm)
 
-
+routerUser.get('/admin', isAdmin ,admin);
 
 module.exports = routerUser;

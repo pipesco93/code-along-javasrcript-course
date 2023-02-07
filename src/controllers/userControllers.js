@@ -84,6 +84,10 @@ const editConfirm = (req,res) => {
     res.redirect('/users');
 }
 
+const admin = (req,res) =>{
+    res.render(path.join(__dirname, "../views/admin.ejs"));
+}
+
 module.exports = {
     getAllUsers,
     getUserId,
@@ -91,5 +95,6 @@ module.exports = {
     formNewUser,
     postUser,
     userEdit,
-    editConfirm
+    editConfirm,
+    admin
 };
